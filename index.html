@@ -36,12 +36,32 @@
 		#globe {
 			width: 50px;
 			height: 50px;
-			background-image: url(https://icon-library.net/images/globe-icon-white/globe-icon-white-8.jpg);
 			background-size: cover;
 			position: relative;
 			left: 40px;
-			top: 570px;
+			top: 550px;
 			z-index: 2;
+			transition-duration: 0.25s;
+		}
+		#globe:hover {
+			width: 53px;
+			height: 53px;
+			transition-duration: 0.25s;
+		}
+		#burn {
+			width: 78px;
+			height: 78px;
+			background-size: cover;
+			position: relative;
+			left: 410px;
+			top: 550px;
+			z-index: 2;
+			transition-duration: 0.25s;
+		}
+		#burn:hover {
+			width: 81px;
+			height: 81px;
+			transition-duration: 0.25s; 
 		}
 		#zak {
 			width: 270px;
@@ -51,6 +71,7 @@
 			position: absolute;
 			left: 157px;
 			top: 635px;
+			z-index: 2;
 		}
 		#yo {
 			font-size: 12pt;
@@ -100,6 +121,20 @@
 			height: 78px;
 			transition-duration: 0.25s;
 		}
+		#rad {
+			width: 70px; 
+			height: 70px;
+			position: absolute;
+			top: 250px;
+			left: 285px;
+			transition-duration: 0.25s;
+		}
+		#rad:hover {
+			width: 78px;
+			height: 78px;
+			transition-duration: 0.25s;
+		}
+
 		#memoji {
 			width: 70px;
 			height: 50px;
@@ -136,7 +171,45 @@
 			top: 40px;
 			z-index: 2;
 		}
-		
+		#holy {
+			width: 45px;
+			height: 50px;
+			border-bottom-left-radius: 35%;
+			border-top-left-radius: 35%;
+			background-image: url(https://pbs.twimg.com/profile_images/1042844867313971200/EQVrQdS1.jpg);
+			background-size: cover;
+			background-position: center;
+			position: absolute;
+			left: 882px;
+			top: 40px;
+			z-index: 2;
+		}
+		#fotopls {
+			width: 70px;
+			height: 50px;
+			border-radius: 35%;
+			background-image: url(https://support.apple.com/library/content/dam/edam/applecare/images/en_US/icloud/ios12-photos-app-3nav-button.jpg);
+			background-size: cover;
+			background-position: center;
+			position: absolute;
+			left: 780px;
+			top: 40px;
+			z-index: 2;
+		}
+		#surch {
+			width: 70px;
+			height: 50px;
+			border-radius: 35%;
+			background-image: url(https://imobie-resource.com/en/support/img/fix-images-not-working-0.png);
+			background-size: cover;
+			background-position: center;
+			position: absolute;
+			left: 680px;
+			top: 40px;
+			z-index: 2;
+		}
+
+
 		/* ask Molly for help with tables */
 
 	</style>
@@ -146,16 +219,21 @@
 	<div id="dark"> </div>
 	<div id="toomanydivs">
 		<div id="memoji"> </div>
-		<div id="fotopls"> </div>
 		<div id="ep"> </div>
 		<div id="moosic"> </div>
+		<div id="fotopls"> </div>
+		<div id="surch"> </div>
+		<div id="holy"> </div>
 	</div>
 	<div id="hey"> 
 		<p id="yo"> FREQUENTLY USED </p>
 		<a href="slickback.html"> <img id="hot" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/155/overheated-face_1f975.png"> </a>
 		<a href="canarsie_loveletter.html"> <img id="cardo" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/225/umbrella-with-rain-drops_2614.png"> </a>
-		<a href="music..html"> <img id="chune" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/225/twisted-rightwards-arrows_1f500.png"> </a>
-		<div id="globe"> </div>
+		<!-- <a href="music..html"> --> <img id="chune" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/225/twisted-rightwards-arrows_1f500.png"> <!-- </a> -->
+		<a href="https://www.gocomics.com/random/boondocks"> <img id="rad" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/232/fisted-hand-sign_emoji-modifier-fitzpatrick-type-4_1f44a-1f3fd_1f3fd.png"> </a>
+
+		<!-- <a href="descripp.html"> --> <img id="globe" src="https://icon-library.net/images/globe-icon-white/globe-icon-white-8.jpg"> <!-- </a> -->
+		<!-- <a href="aboutme.html"> --> <img id="burn" src="mic.png"> <!-- </a> -->
 		<div id="zak"></div>
 	</div>
 </body>
