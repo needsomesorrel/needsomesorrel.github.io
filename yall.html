@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>can i get a real life huey?</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function sayMyName (name) {
+			console.log("hello" + name);
+		}
+		function moreHueys () {
+			var huey = document.createElement("div");
+			huey.style.height = "225px";
+			huey.style.width = "225px";
+			huey.style.backgroundColor = "blue";
+			huey.style.backgroundImage = "url(https://media0.giphy.com/media/NH0xmy02r7vlS/source.gif)";
+			huey.style.backgroundSize = "contain";
+			document.body.appendChild(huey);
+		};
+		
+		var i;
+		for (i=0; i<100; i=i+1) {
+			moreHueys(); 
+		};
+
+	</script>
+</body>
+</html>

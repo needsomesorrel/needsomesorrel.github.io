@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>weh is yuh boifwen🥺</title>
+	<style type="text/css">
+		body {
+			background-color: #ffa3e0;
+		}
+		h1 {
+			font-family: courier;
+			font-size: 70px;
+			text-align: center;
+		}
+		#surpris{
+			position: relative;
+			top: -37%;
+			font-size: 15px;
+			font-family: courier;
+			text-align: center;
+			color: purple;
+			opacity: 0;
+			transition: all 0.1s;
+		}
+		#initial {
+			color: #fffafd; /* will become light pink */
+			position: relative;
+			top:29%;
+			/*left: 46%; */
+			font-family: courier;
+			font-size: 160px;
+			text-align: center;
+			/*left: 26%;*/
+		}
+		#heart {
+		width: 450px;
+		height: 450px;
+		background-image: url("https://cdn.clipart.email/b8f089216c890d73af0a75dd68eba717_dark-red-heart-transparent-background_1024-1024.png");
+			/* background-color: green; */
+		background-size: cover;
+		position: relative;
+		top: -60px;
+		}
+		#heart:hover #surpris {
+			opacity: 1;
+		}
+
+	</style>
+</head>
+<body>
+	<h1> Your Next Valentine's Initial... </h1> 
+	<center> <div id="heart"> 
+		<div id=initial> </div>
+		<h2 id="surpris"> <i> Click me to find out! </i> </h2>
+	</div> </center>
+	<!-- <center> <div id=initial> </div> </center> -->
+	<center> <div id=button> </div> </center>
+	<!-- <h2 id="surpris"> Click me to find out! </h2> -->
+
+
+	<script type="text/javascript">
+		var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+		// function sittingHome (x) {
+		// 	var initial = document.createElement('h1');
+		// 	document.body.appendChild(initial);
+		// 	initial.style.fontFamily="OCR A Std";
+		// 	initial.style.fontSize="40px";
+
+	function valentime() {
+		var r = Math.round(Math.random()*25);
+			console.log(letters[r]);
+		document.getElementById("initial").innerText = letters[r];
+	}
+		var y = setInterval(valentime, 90);
+	function sweehart(){
+		clearInterval(y);
+	}
+
+	document.getElementById("heart").addEventListener("click", sweehart);
+		
+		//}
+		
+		// document.getElementById(letters).innerHTML = [17];
+	</script>
+</body>
+</html>

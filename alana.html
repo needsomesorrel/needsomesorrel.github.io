@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var sir = "url(http://images.greenlabel.com/assets/2016/11/r-and-b-singer-sir.jpg)";
+
+		var lucky = "url(https://media.giphy.com/media/RgcP8ONaqNcHLNmCWe/giphy.gif)";
+		
+		function musicHeads (x) {
+			var face = document.createElement('div');
+			document.body.appendChild(face);
+			face.style.backgroundImage = x;
+			face.style.backgroundSize="cover";
+			face.style.backgroundPosition="center";
+			face.style.width = "70px";
+			face.style.height = "70px";
+			face.style.borderRadius="50%";
+			face.style.display="inline-block";
+			face.style.position="relative";
+
+			// face.id="face"+x;
+			// face.innerHTML=face.id;
+			console.log(face);
+
+
+		}
+
+		for (var i=0; i<100; i=i+1) {
+			musicHeads("url(http://images.greenlabel.com/assets/2016/11/r-and-b-singer-sir.jpg)");
+		}
+
+
+		for (var i=0; i<50; i=i+1) {
+			musicHeads("url(https://media.giphy.com/media/RgcP8ONaqNcHLNmCWe/giphy.gif)");
+		}
+	</script>
+
+
+</body>
+</html>
