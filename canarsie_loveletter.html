@@ -25,7 +25,7 @@
 			background-color: #c1d0e3;
 			padding:10px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
+			position: absolute;
 			left: 50px;
 			transition-duration: 0.25s;
 		}
@@ -40,9 +40,9 @@
 			background-color: #c1d0e3;
 			padding:10px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
-			left: 475px;
-			bottom: 420px;
+			position: absolute;
+			left: 485px;
+			bottom: 120px;
 			transition-duration: 0.25s;
 
 		}
@@ -56,9 +56,9 @@
 			background-color: #c1d0e3;
 			padding:10px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
-			left: 900px;
-			bottom: 840px;
+			position: absolute;
+			left: 920px;
+			bottom: 120px;
 			transition-duration: 0.25s;
 		}
 		#card3:hover {
@@ -71,9 +71,9 @@
 			background-color: #c1d0e3;
 			padding:10px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
+			position: absolute;
 			left: 50px;
-			bottom: 800px;
+			bottom: -350px;
 			transition-duration: 0.25s;
 		}
 		#card4:hover {
@@ -86,9 +86,9 @@
 			background-color: #c1d0e3;
 			padding:10px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
-			left: 475px;
-			bottom: 1220px;
+			position: absolute;
+			left: 485px;
+			bottom: -350px;
 			transition-duration: 0.25s;
 		}
 		#card5:hover {
@@ -101,12 +101,57 @@
 			background-color: #c1d0e3;
 			padding:10px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
-			left: 900px;
-			bottom: 1640px;
+			position: absolute;
+			left: 920px;
+			bottom: -350px;
 			transition-duration: 0.25s;
 		}
 		#card6:hover {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+			transition-duration: 0.5s;
+		}
+		#card7 {
+			width: 300px;
+			height: 400px;
+			background-color: #c1d0e3;
+			padding:10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			position: absolute;
+			left: 50px;
+			bottom: -820px;
+			transition-duration: 0.25s;
+		}
+		#card7:hover {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+			transition-duration: 0.5s;
+		}
+		#card8 {
+			width: 300px;
+			height: 400px;
+			background-color: #c1d0e3;
+			padding:10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			position: absolute;
+			left: 485px;
+			bottom: -820px;
+			transition-duration: 0.25s;
+		}
+		#card8:hover {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+			transition-duration: 0.5s;
+		}
+		#card9 {
+			width: 300px;
+			height: 400px;
+			background-color: #c1d0e3;
+			padding:10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			position: absolute;
+			left: 920px;
+			bottom: -820px;
+			transition-duration: 0.25s;
+		}
+		#card9:hover {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
 			transition-duration: 0.5s;
 		}
@@ -132,20 +177,22 @@
 			color: #030024;
 		}
 
-		/* #retour {
+		#retour {
 			width: 300px;
 			height: 50px;
-			background-color: #f5f9ff;
 			font-family: OCR A Std, monospace;
-			position: fixed;
-			top: 450px;
-			right: 700px;
-		} *\
+			position: absolute;
+			font-size: 12pt;
+			top: 45px;
+			right: 0px;
+		} 
 	</style>
 	<title> Tidbits </title>
 </head>
 <body>
+	
 	<h2> { my coding journal. } </h2>
+	<h2 id="retour"> <a href="index.html"> Head back to my home page >> </a> </h2>
 	
 <div id="card1"> 
 	<p id="day"> Day 1 </p>
@@ -170,21 +217,42 @@
 
 <div id="card4"> 
 	<p id="day"> Day 4 </p>
-	<p id="ladate"> February 11, 2019 😬 </p> 
+	<p id="ladate"> February 11, 2020 😬 </p> 
 	<hr>
-	<p id="ibedoin"> {tbd.} </p>
+	<p id="ibedoin"> Do I remember what I was going to write this day? Not exactly but this will be updated. ~4/24/2020 </p>
 </div>
 
 <div id="card5">
 	<p id="day"> Day 5 </p>
-	<p id="ladate"> ??, 2019 </p> 
+	<p id="ladate"> April 24, 2020 </p> 
 	<hr>
-	<p id="ibedoin"> {tbd.}  </p>
+	<p id="ibedoin"> It's bad, it's BAD! It's really bad but with all this extra time that I have, I really want to become more consistent in updating my coding journal. Yesterday, I rounded off my most recent project, and it ended up coming out pretty great. The only real challenges I had with it were stylistic, which, when you're a perfectionist like me, is actually a lot more taxing than you think.  </p>
 </div>
 
 <div id="card6">
 	<p id="day"> Day 6 </p>
-	<p id="ladate"> ??, 2019 </p> 
+	<p id="ladate"> April 27, 2020 </p> 
+	<hr>
+	<p id="ibedoin"> My latest project from Ifetayo deals with the census and encouraging people to fill it out. As part of our creative project, I have to record myself holding uo a sign with the number 10 on it. I have had the assignment for a while, but it came to me that I could code a "10" sign to show some versatility! It shouldn't take long and it's not that complicated, but hey, it's always nice to do some more coding! <i> ~must be comp sci on the brainnnnnn </i> </p>
+</div>
+
+<div id="card7">
+	<p id="day"> Day 7 </p>
+	<p id="ladate"> ??, 2020 </p> 
+	<hr>
+	<p id="ibedoin"> {tbd.}  </p>
+</div>
+
+<div id="card8">
+	<p id="day"> Day 8 </p>
+	<p id="ladate"> ??, 2020 </p> 
+	<hr>
+	<p id="ibedoin"> {tbd.}  </p>
+</div>
+
+<div id="card9">
+	<p id="day"> Day 9 </p>
+	<p id="ladate"> ??, 2020 </p> 
 	<hr>
 	<p id="ibedoin"> {tbd.}  </p>
 </div>
